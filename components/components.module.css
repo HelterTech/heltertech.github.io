@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 40px 50px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.navList {
+  display: flex;
+}
+
+.navList > a > li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+.navList > a > li:hover {
+  color: rgb(49, 49, 49);
+}

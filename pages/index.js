@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar";
+
 export default function Home() {
   return (
     <div>
-      <h1>Helter Tech</h1>
+      <Navbar />
     </div>
   )
 }
