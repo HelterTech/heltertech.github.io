@@ -1,3 +1,5 @@
+/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -20,4 +22,31 @@
 
 .navList > a > li:hover {
   color: rgb(49, 49, 49);
+}
+
+/* Cover */
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.coverHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.coverHeader_heading {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.coverHeader_btn {
+  padding: 10px 50px 10px 50px;
+  font-size: 20px;
+  border: 3px solid #161616;
+  text-align: center;
+  background-color: #ebebeb;
 }
