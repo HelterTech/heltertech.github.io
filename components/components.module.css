@@ -50,3 +50,65 @@
   text-align: center;
   background-color: #ebebeb;
 }
+
+.workContainer {
+  padding: 50px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.service {
+  width: 250px;
+  margin: 50px;
+}
+
+.workContainer_head_1 {
+  font-size: 20px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+
+.workContainer_head_2 {
+  font-weight: 300;
+  color: #161616;
+  font-size: 48px;
+}
+
+.service_icon {
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.service_head {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-weight: 300;
+  color: #27292b;
+}
+
+.service_desc {
+  min-height: 70px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #6c7787;
+  font-weight: 300;
+}
+
+.service_link {
+  display: flex;
+  align-items: center;
+}
+
+.service_link_icon {
+  background: black;
+  margin-left: 15px;
+  width: 13.5% !important;
+  border-radius: 50px;
+  color: white;
+}
