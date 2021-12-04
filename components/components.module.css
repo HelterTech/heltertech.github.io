@@ -112,3 +112,118 @@
   border-radius: 50px;
   color: white;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footer_numbers {
+  padding: 0px 100px;
+}
+
+.footer_numbers_table {
+  display: flex;
+}
+
+.footer_numbers_table > div {
+  border: 1px solid #161616;
+  padding: 20px 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.footer_numbers_table > div > h2 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 3px;
+}
+
+.footer_numbers_table > div > p {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 200;
+}
+
+.footer_heading {
+  width: 500px;
+}
+
+.footer_heading_h1 {
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 120px;
+  letter-spacing: normal;
+  font-style: normal;
+  color: #110f10;
+  padding: 0 100px;
+}
+
+.form {
+  width: 40%;
+  padding: 50px;
+  border: 1px solid #eee;
+  box-shadow: 1px 1px 7px #eee;
+  z-index: 1;
+}
+
+.form__data__div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__info > input,
+.form__options,
+.form__info_name > input {
+  height: 50px;
+  border-radius: 2px;
+  font-size: 16px;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  margin: 10px;
+}
+
+.contact_desc > textarea,
+.selectCountry {
+  width: 100%;
+  margin: 10px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+
+.contact_desc > textarea {
+  height: 140px;
+  padding: 15px 10px;
+}
+
+.formBtn {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 16px 16px;
+  text-align: center;
+  font-weight: 700;
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+}
