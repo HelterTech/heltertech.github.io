@@ -3,7 +3,7 @@ import styles from "./components.module.css";
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <div id="footer-form" className={styles.footer}>
             <div>
                 <div className={styles.footer_numbers}>
                     <h1>HelterTech by the Numbers</h1>
