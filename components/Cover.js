@@ -6,8 +6,14 @@ export default function Cover() {
     return (
         <div className={styles.cover}>
             <div className={styles.coverHeader}>
-                <p className={styles.coverHeader_heading}>Connecting People <br /> and Technology</p>
-                <a href="#footer-form" className={styles.coverHeader_btn}>Let's Talk</a>
+                <p className={styles.coverHeader_heading}>
+                    Connecting People
+                    <br />
+                    and Technology
+                </p>
+                <a href="#footer-form" className={styles.coverHeader_btn}>
+                    Let&apos;s Talk
+                </a>
             </div>
             <div className={styles.coverImage}>
                 <Image src={CoverImage} alt="" />

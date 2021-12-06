@@ -17,7 +17,7 @@ export default function Contact_form() {
                 <div className={styles.form__data__div}>
                     <div className={styles.form__info}>
                         <select className={styles.form__options}>
-                            <option value="0">I'am Intersted In:</option>
+                            <option value="0">I&apos;am Intersted In:</option>
                             <option value="1">Web Development</option>
                             <option value="2">App Development</option>
                             <option value="3">Graphic Designing</option>
@@ -66,7 +66,7 @@ export default function Contact_form() {
                         ></textarea>
                     </div>
                 </div>
-                <button className={styles.formBtn}>Let's Talk about your Project</button>
+                <button className={styles.formBtn}>Let&apos;s Talk about your Project</button>
             </form>
         </div>
     )
