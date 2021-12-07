@@ -228,3 +228,27 @@
   border-radius: 5px;
   margin: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    display: none;
+  }
+  .cover {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .form {
+    width: 100%;
+  }
+  .footer_heading_h1 {
+    font-size: 50px;
+    line-height: 50px;
+    padding: 10px;
+  }
+}
