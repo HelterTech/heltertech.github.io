@@ -197,6 +197,10 @@
   margin: 10px;
 }
 
+.select_service {
+  margin-right: 10px;
+}
+
 .contact_desc > textarea,
 .selectCountry {
   width: 100%;
@@ -237,11 +241,48 @@
     flex-direction: column;
     padding: 20px;
   }
+  .coverHeader_heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .coverHeader_btn {
+    margin-bottom: 20px;
+  }
+  .workContainer_head_2 {
+    font-size: 30px;
+  }
   .services {
     flex-direction: column;
+    padding: 0px;
+  }
+  .service {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .footer {
     flex-direction: column;
+    padding: 0px;
+  }
+  .footer_numbers {
+    padding: 0px;
+  }
+  .footer_numbers > h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .footer_numbers_table {
+    justify-content: center;
+  }
+  .footer_numbers_table > div {
+    padding: 20px;
+  }
+  .footer_numbers_table > div > h2 {
+    font-size: 20px;
+  }
+  .footer_numbers_table > div > p {
+    font-size: 18px;
   }
   .form {
     width: 100%;
@@ -250,5 +291,7 @@
     font-size: 50px;
     line-height: 50px;
     padding: 10px;
+    width: 100vw;
+    display: none;
   }
 }

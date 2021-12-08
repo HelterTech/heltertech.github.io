@@ -10,7 +10,7 @@ export default function Footer() {
                     <div className={styles.footer_numbers_table}>
                         <div>
                             <h2>96%</h2>
-                            <p>Ratings</p>
+                            <p>Client Ratings</p>
                         </div>
                         <div>
                             <h2>100+</h2>
