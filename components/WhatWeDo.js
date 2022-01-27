@@ -24,14 +24,6 @@ export default function WhatWeDo() {
                     <p className={styles.service_desc}>
                         Bring your ideas to life with next-gen web solutions
                     </p>
-                    <Link href="/Web-Development" >
-                        <a className={styles.service_link}>Learn more
-                            <FontAwesomeIcon
-                                icon={faArrowRight}
-                                className={styles.service_link_icon}
-                            />
-                        </a>
-                    </Link>
                 </div>
                 <div className={styles.service}>
                     <FontAwesomeIcon
@@ -44,14 +36,6 @@ export default function WhatWeDo() {
                     <p className={styles.service_desc}>
                         Transform your idea into the next killer mobile app
                     </p>
-                    <Link href="/App-Development">
-                        <a className={styles.service_link}>Learn more
-                            <FontAwesomeIcon
-                                icon={faArrowRight}
-                                className={styles.service_link_icon}
-                            />
-                        </a>
-                    </Link>
                 </div>
                 <div className={styles.service}>
                     <FontAwesomeIcon
@@ -64,15 +48,6 @@ export default function WhatWeDo() {
                     <p className={styles.service_desc}>
                         Affordable solutions for all your creativity needs
                     </p>
-                    <Link href="/Graphic-Designing">
-                        <a className={styles.service_link}>
-                            Learn more
-                            <FontAwesomeIcon
-                                icon={faArrowRight}
-                                className={styles.service_link_icon}
-                            />
-                        </a>
-                    </Link>
                 </div>
             </div>
         </div>

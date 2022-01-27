@@ -40,11 +40,6 @@ export default function whatWeDo() {
                             <div className={styles.services_img}>
                                 <Image src={helterWeb} alt="" />
                             </div>
-                            <div className={styles.service_btn}>
-                                <Link href="/web-development">
-                                    <a>Learn More</a>
-                                </Link>
-                            </div>
                         </div>
                     </div>
                     <div className={styles.wwd_services_comp}>
@@ -55,11 +50,6 @@ export default function whatWeDo() {
                             </div>
                             <div className={styles.services_img}>
                                 <Image src={androidHelter} alt="" />
-                            </div>
-                            <div className={styles.service_btn}>
-                                <Link href="/app-development">
-                                    <a>Learn More</a>
-                                </Link>
                             </div>
                         </div>
                         <div className={styles.wwd_services_comp_img}>
@@ -77,11 +67,6 @@ export default function whatWeDo() {
                             </div>
                             <div className={styles.services_img}>
                                 <Image src={graphicsHelter} alt="" />
-                            </div>
-                            <div className={styles.service_btn}>
-                                <Link href="/graphic-designing">
-                                    <a>Learn More</a>
-                                </Link>
                             </div>
                         </div>
                     </div>
