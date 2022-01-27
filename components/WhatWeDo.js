@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLaptopCode, faArrowRight, faMobileAlt, faPalette } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import { faLaptopCode, faMobileAlt, faPalette } from '@fortawesome/free-solid-svg-icons';
 
 import styles from './components.module.css';
 

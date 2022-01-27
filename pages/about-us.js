@@ -3,21 +3,23 @@ import Navbar from "../components/Navbar";
 import HelterTech from "../assets/helter-tech.jpg";
 import Image from "next/image";
 
+import styles from './pages.module.css';
+
 export default function aboutUs() {
     return (
-        <div>
+        <div className={styles.aboutUsPage}>
             <Navbar />
-            <div>
-                <div>
+            <div className={styles.aboutUsPage_body}>
+                <div className={styles.aboutUsPage_header}>
                     <h1>About Us</h1>
                     <p>We believe digital innovation is at the heart of every business success</p>
                 </div>
-                <div>
+                <div className={styles.aboutUsPage_header}>
                     <h2>The story</h2>
                     <p>Talent wins games, teamwork wins championships</p>
                     <p>As the name suggests, we are a tight-knit team of overachievers bound together by a common purpose, to push the envelope of design and technology and help companies achieve lasting success.</p>
                 </div>
-                <div>
+                <div className={styles.aboutUsPage_cover}>
                     <div>
                         <Image src={HelterTech} alt="" />
                     </div>

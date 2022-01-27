@@ -71,3 +71,34 @@
   font-weight: 400;
   margin: 10px 0px;
 }
+.aboutUsPage_body {
+  padding: 0px 100px;
+  text-align: center;
+}
+.aboutUsPage_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.aboutUsPage_header > p {
+  font-size: 18px;
+  width: 80%;
+}
+.aboutUsPage_cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUsPage_cover > div {
+  width: 500px;
+}
+.aboutUsPage_cover > p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.contactPage_header {
+  text-align: center;
+}
